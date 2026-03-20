@@ -86,3 +86,19 @@ graph LR
     D --> E[Weekly Hours<br/>(40-60 hours)];
     E --> F[AI Risk Score<br/>(Calculated)<br/>Score: 78/100];
     F --> G[Premium Quote<br/>₹89/week<br/>[Pay via UPI]];
+graph TD
+    subgraph Trigger Detection
+        A[TRIGGER EVENT DETECTED<br/>Heavy rain (>10mm/hr) in Andheri West] --> B{AUTOMATIC CLAIM INITIATION};
+    end
+    
+    subgraph Verification
+        B --> C[GPS verification:<br/>User in affected zone?];
+        B --> D[Time match:<br/>During scheduled work hours?];
+        B --> E[Platform check:<br/>Was 'online' on Swiggy?];
+        C & D & E --> F[Loss calculation:<br/>6 hours × ₹133/hour = ₹800];
+    end
+
+    subgraph Fraud & Payout
+        F --> G[AI FRAUD DETECTION<br/>• GPS match<br/>• Time match<br/>• No duplicate<br/>• No suspicious pattern];
+        G --> H[INSTANT PAYOUT<br/>• Notification: "Rain detected! ₹800 credited"<br/>• UPI transfer<br/>• Total time: 2-3 minutes];
+    end
