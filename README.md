@@ -238,8 +238,7 @@ Mentors and organizers for this opportunity to build for India's gig economy
 ---
 
 **🔗 Links:**
-- GitHub Repository: [YOUR_REPO_URL]
+- GitHub Repository: [https://github.com/Santhosh-Kumar-ctrl/Devtrails_2026/tree/main]
 - Demo Video: [YOUR_VIDEO_LINK]
-- Live App: [YOUR_STREAMLIT_URL]
 
 *Built with ❤️ for India's delivery partners who keep our cities running, rain or shine.*
