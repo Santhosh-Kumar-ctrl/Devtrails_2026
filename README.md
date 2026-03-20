@@ -229,10 +229,10 @@ Gig workers operate week-to-week with no salary security. Monthly premiums creat
 ## 👥 Team & Acknowledgments
 
 ### Team
-*Santhosh Kumar B*
-*Tamilselvan*
-*Mohan M*
-*Prajeeth H*
+*Santhosh Kumar B\n*
+*Tamilselvan\n*
+*Mohan M\n*
+*Prajeeth H\n*
 
 ### Acknowledgments
 DEVTrails 2026 Hackathon - Guidewire  
